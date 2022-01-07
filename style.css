@@ -1,0 +1,158 @@
+
+* {
+    border: 2px dotted fuchsia;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Helvetica, sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding:20px 50px ;
+}
+
+header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 16px;
+    padding: 16px;
+}
+
+a:hover {
+    color: #3882F6 ;
+}
+
+.sub-header {
+    display: flex;
+    background-color:#1F2937 ;
+    color: #E5E7EB;
+    padding: 60px 15vw;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+
+}
+
+.sub-text p {
+    color: #dbdbdb;
+    max-width: 300px;
+    min-height: 65px ;
+    font-weight: lighter;
+}
+
+div.sub-text button {
+    border-color: #3882F6;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-width: 3px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 5px 10px;
+}
+
+.img-placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 100px;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.illustration {
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+.info p {
+    width: 100px;
+    font-weight: 100;
+}
+
+.quote {
+    background-color: rgb(236, 236, 236);
+    padding: 30px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 24px;
+    font-weight: lighter;
+}
+cite {
+    display: block;
+    text-align: end;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 20px;
+    color: #E5E7EB;
+}
+div.call-text > p {
+    font-weight: bold;
+}
+div.call-text > p + p {
+    font-weight: normal;
+}
+.call button {
+    border-color:#E5E7EB;
+    height: fit-content;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB ;
+    font-size: smaller;
+    padding: 15px;
+}
