@@ -1,7 +1,4 @@
 
-* {
-    border: 2px dotted fuchsia;
-}
 body {
     display: flex;
     flex-direction: column;
@@ -130,7 +127,7 @@ cite {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 10vw;
     background-color: #3882F6;
     margin: 50px;
     border-radius: 20px;
